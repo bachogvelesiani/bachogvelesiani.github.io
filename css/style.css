@@ -1,0 +1,374 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+/* !important */
+
+.no-pad {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+/* All The Sections */
+
+#home {
+    margin-top: 0;
+    background: url(../img/homee.jpg) no-repeat center center;
+    background-size: cover;
+    /*height: 100vh;*/
+    background-attachment: fixed;
+}
+
+#about {
+    /*background: url(../img/about.jpeg) no-repeat center center;
+    background-size: cover;*/
+    width: 100%;
+}
+
+#work {
+    /*background: url(../img/contact.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;*/
+    width: 100%;
+}
+
+#contact {
+    /*background: url(../img/contact.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;*/
+    width: 100%;
+}
+
+
+/* Home Section */
+
+#home h1 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#home p {
+    font-size: 18px;
+}
+
+#home .home-info {
+    margin-top: 300px;
+    line-height: 30px;
+    margin-bottom: 345px;
+}
+#home .btn {
+    background-color: #1A1D24;
+    border: none;
+    color: #EAE9E5;
+}
+#home .btn:hover {
+    background-color: #1ABC9C;
+}
+
+/* About Section */
+
+#about h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #50535D;
+}
+
+#about span {
+    color: darkorange;
+}
+
+#about h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #1ABC9C;
+}
+
+#about p {
+    line-height: 30px;
+    color: #1A1D24;
+    font-weight: 600;
+}
+
+#about a {
+    color: darkorange;
+}
+
+#about a:hover {
+    color: #1ABC9C;
+}
+
+#about img {
+    margin-top: 10px;
+}
+
+#about .btn-info {
+    background-color: #1A1D24;
+    border: none;
+    color: #EAE9E5;
+}
+
+#about .btn-info:hover {
+    background-color: #1ABC9C;
+    border: none;
+    color: #EAE9E5;
+}
+
+#about {
+    background-color: #EAE9E5;
+    color: white;
+    text-align: center
+}
+
+
+/* Parallax */
+
+#parallax {
+    background: url(../img/parallax.jpg) no-repeat center center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+    font-weight: 800;
+    color: #1A1D24;
+}
+
+#parallax .container1 {
+    background: rgba(234, 233, 229, 0.3);
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container1 {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#parallax h1 {
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+
+/* Services section */
+
+#services h1,
+#services h2 {
+    color: #EAE9E5;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#services .container {
+    margin-bottom: -23px;
+}
+
+#services .btn {
+    background-color: #1A1D24;
+    border: none;
+    color: #EAE9E5;
+}
+
+#services .btn:hover {
+    background-color: #1ABC9C;
+    border: none;
+    color: #EAE9E5;
+}
+
+#services .works {
+    background-color: #EAE9E5;
+    color: #1A1D24;
+    margin-top: 35px;
+    font-weight: 700;
+}
+
+#services .works:hover {
+    background-color: #1ABC9C;
+    border: none;
+}
+
+#services span {
+    color: #1ABC9C;
+    font-weight: 700;
+}
+
+
+/* Hire me */
+
+#hireme {
+    text-align: center;
+    color: #EAE9E5;
+    background: url(../img/hireme.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hireme h1 {
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+#hireme .btn {
+    background-color: #1A1D24;
+    border: none;
+}
+
+#hireme .btn:hover {
+    background-color: darkorange;
+}
+
+
+/* Works */
+
+#work .card {
+    margin-bottom: 30px;
+}
+
+#work h1 {
+    color: #EAE9E5;
+    margin-bottom: 40px;
+}
+
+#work p {
+    color: #EAE9E5;
+    margin-bottom: 40px;
+}
+
+#work .btn {
+    background-color: #EAE9E5;
+    color: #1a1d24;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#work .btn:hover {
+    background-color: #1ABC9C;
+    color: #EAE9E5;
+}
+
+/* Contact Section */
+
+#contact h1 {
+    margin-bottom: 20px;
+}
+
+#contact input {
+    margin-bottom: 20px;
+    width: 240px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 19px;
+}
+
+#contact .btn {
+    background-color: #1A1D24;
+    border: none;
+    border-radius: 10px;
+}
+
+#contact .btn:hover {
+    background-color: darkorange;
+}
+
+#contact input:focus {
+    animation: move 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    border: none;
+}
+
+/* Footer */
+
+#footer {
+    color: #EAE9E5;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+#footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#footer .email {
+    margin-top: 30px;
+}
+/* Other Stuff */
+
+
+/* Socials */
+
+.socials i {
+    font-size: 44px;
+    float: left;
+    letter-spacing: 28px;
+    margin-top: 30px;
+}
+
+.socials i:hover {
+    opacity: 1;
+}
+
+.twitter {
+    color: #1DA1F2;
+    opacity: 0.8;
+}
+
+.pinterest {
+    color: #C10B1F;
+    opacity: 0.8;
+}
+
+.facebook {
+    color: #3b5998;
+    opacity: 0.8;
+}
+
+.googleplus {
+    color: #DD4E40;
+    opacity: 0.8;
+}
+
+
+/* Backgrounds */
+
+.white-bg {
+    background-color: #EAE9E5;
+    padding: 120px 0;
+}
+
+.grey-bg {
+    background-color: #F7F7F7;
+    padding: 80px 0;
+}
+
+.dark-bg {
+    background-color: #1A1D24;
+    padding: 120px 0;
+}
+
+
+/* Keyframes */
+
+@keyframes move {
+    0% {
+        padding-left: 19px;
+    }
+    100% {
+        padding-left: 49px;
+    }
+}

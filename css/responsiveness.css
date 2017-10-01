@@ -1,0 +1,81 @@
+/* Mobile Small */
+
+@media only screen and (max-width: 320px) {
+    header nav {
+        height: 50px;
+    }
+    header nav .logo {
+        margin-top: -5px;
+    }
+    .ham-menu {
+        margin-top: -64px;
+    }
+    #home .row .home-info {
+        margin-bottom:90px;
+    }
+    #slide-menu {
+        width: 175px;
+    }
+}
+
+
+/* Mobile Medium */
+@media only screen and (max-width: 375px) {
+    /* Home section responsive */
+    #home .home-info {
+        margin-top: 170px;
+    }
+    #slide-menu {
+        width: 200px;
+    }
+}
+
+
+/* Mobile Large */
+@media only screen and (max-width: 425px) {
+    /* Home section responsive */
+    #home .home-info {
+        margin-top: 190px;
+    }
+    #slide-menu {
+        width: 200px;
+    }
+    
+}
+
+
+/* Tablet Screen */
+@media only screen and (max-width: 768px) {
+    /* Home section responsive */
+    #home .home-info {
+        margin-top: 290px;
+        margin-bottom: 266px;
+    }
+    #slide-menu {
+        width: 200px;
+    }
+    #about img {
+        display: none;
+    }
+    #services .col-md-4 {
+        margin-bottom: 30px;
+    }
+    #parallax .col-md-3 {
+        margin-bottom: 30px;
+    }
+    #parallax .col-md-3:last-child{
+        margin-bottom: 0;
+    }
+    #work .btn {
+        margin-bottom: 30px;
+    }
+    #contact h1.contact {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
